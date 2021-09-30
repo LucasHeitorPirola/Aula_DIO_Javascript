@@ -91,6 +91,7 @@ function setReplace(frase, nome, novo_nome){
 document.write(setReplace("Vai Japão", "Japão", "Brasil"));
 */
 
+/*
 function validaIdade(idade){
   var validar;
   if (idade >= 18){
@@ -101,4 +102,35 @@ function validaIdade(idade){
 }
 
 var idade = prompt("Qual a sua idade?");
-document.write(validaIdade(idade));
+alert.write(validaIdade(idade));
+*/
+
+function botao(){
+  document.getElementById("Agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+  //console.log(document.getElementById("Agradecimento"));
+  //alert("Obrigado po clicar");
+}
+
+function redirecionar(){
+  // Abrir em outra janela: window.open("https://www.w3schools.com/js/default.asp")
+  // Abrir na mesma janela: window.location.href = "https://www.w3schools.com/js/default.asp";
+}
+
+function trocar(elemento){
+  //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+  elemento.innerHTML = "Obrigado por passar o mouse";
+  //alert("trocar texto");
+}
+
+function voltar(elemento){
+  elemento.innerHTML = "Passe o mouse aqui";
+  //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+  alert("Carregada")
+}
+
+function funcaoChange(elemento){
+  console.log(elemento.value)
+}
