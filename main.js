@@ -2,8 +2,10 @@
 
 //Data
 
+/*
 var d = new Date();
 alert(d.getSeconds());
+*/
 
 //Laços de repetição
 
@@ -48,19 +50,19 @@ console.log(frutas[0])
 //lista.pop();
 //lista.push("melancia");
 
-//Variáveis
+//VARIÁVEIS
 
 //var nome = "Lucas Pirola";
 //var idade = 21
 //var idade2 = 10
 //var frase = "Japão é o melhor país do mundo"
 
-//alert
+//ALERT
 
 //alert(nome + " tem " + idade + " anos ");
 //alert(idade + idade2);
 
-//console.log 
+//CONSOLE.LOG 
 
 //console.log(nome + [idade + idade2])
 
@@ -70,3 +72,33 @@ console.log(frutas[0])
 
 //.toLowerCase() serve para colocar as strings em minúsculas
 //.toUpperCase() serve para colocar as strings em maiúsculas
+
+//FUNÇÕES
+
+/*
+function soma(n1, n2){
+  return n1 + n2;
+}
+
+alert(soma(5, 10));
+*/
+
+/*
+function setReplace(frase, nome, novo_nome){
+  return frase.replace(nome, novo_nome)
+}
+
+document.write(setReplace("Vai Japão", "Japão", "Brasil"));
+*/
+
+function validaIdade(idade){
+  var validar;
+  if (idade >= 18){
+  return true
+  }else{
+  return false
+  }
+}
+
+var idade = prompt("Qual a sua idade?");
+document.write(validaIdade(idade));
