@@ -1,5 +1,36 @@
 //Início do projeto que eu nem sei o que será
 
+//Data
+
+var d = new Date();
+alert(d.getSeconds());
+
+//Laços de repetição
+
+/*var count = 1;
+while(count <= 10){
+  console.log(count);
+  count++;
+};
+*/
+
+/*
+for ( var count = 0; count <= 10; count++ ) {
+  console.log( count );
+}
+*/
+
+//Condicional
+
+/*
+var idade = 21;
+if(idade >= 18){
+  alert("maior de idade")
+}else{
+  alert("menor de idade")
+}
+*/
+
 //Dicionário
 
 /*
